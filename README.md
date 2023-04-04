@@ -103,3 +103,4 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [x] use netlify github-pages, and vercel
 - [x] chang blog font
 - [ ] use mdx, reading time(maybe)
+- [ ] use tailwindcss and protography

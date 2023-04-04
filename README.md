@@ -104,3 +104,4 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [x] chang blog font
 - [ ] use mdx, reading time(maybe)
 - [ ] use tailwindcss and protography
+- [ ] learn graphql

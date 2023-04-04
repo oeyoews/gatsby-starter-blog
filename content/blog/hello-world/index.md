@@ -1,6 +1,6 @@
 ---
 title: Hello World(Gatsby)
-date: '2023-04-04T22:12:03.284Z'
+date: '2023-04-04'
 description: Hello World
 ---
 This is my first post on my new fake blog! How exciting!

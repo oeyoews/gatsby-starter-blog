@@ -10,15 +10,13 @@
 module.exports = {
   siteMetadata: {
     title: `Blog`,
-    /* author: {
+    author: {
       name: `oeyoews`,
-      summary: `who lives and works in San Francisco building useful things.`,
-    }, */
+      summary: ``,
+    },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    social: {
-      twitter: `oeyoews`,
-    },
+    // menuLinks: []
   },
   plugins: [
     `gatsby-plugin-image`,

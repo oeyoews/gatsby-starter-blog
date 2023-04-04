@@ -50,7 +50,7 @@ Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 
 A quick look at the top-level files and directories you'll see in a typical Gatsby project.
 
-    .
+    I.
     ├── node_modules
     ├── src
     ├── .gitignore
@@ -107,3 +107,5 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [ ] learn graphql
 - [ ] add darkmode plugin (switcher)
 - [ ] support notion api
+- [ ] add zoomjs
+- [ ] add lastupdated

@@ -1,12 +1,12 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
+import { /* Link ,*/ graphql } from "gatsby"
 
 // import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const BlogPostTemplate = ({
-  data: { previous, next, site, markdownRemark: post },
+  data: { /* previous, next,  */ site, markdownRemark: post },
   location,
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
@@ -29,7 +29,7 @@ const BlogPostTemplate = ({
         <hr />
         {/* <footer></footer> */}
       </article>
-      <nav className="blog-post-nav">
+      {/* <nav className="blog-post-nav">
         <ul
           style={{
             display: `flex`,
@@ -54,7 +54,7 @@ const BlogPostTemplate = ({
             )}
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </Layout>
   )
 }

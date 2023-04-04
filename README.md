@@ -110,3 +110,4 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [ ] add zoomjs
 - [ ] add lastupdated
 - [ ] TOC???
+- [ ] searchable

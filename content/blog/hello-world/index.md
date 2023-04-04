@@ -1,6 +1,6 @@
 ---
-title: Hello World(Gatsby)
-date: '2023-04-04'
+title: Hello World
+date: 2023-04-04T00:00:00.000Z
 description: Hello World
 ---
 This is my first post on my new fake blog! How exciting!

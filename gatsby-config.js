@@ -22,17 +22,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-remark-images`,
-      options: {
-        maxWidth: 590,
-        linkImagesToOriginal: false, // Important!
-      },
-    },
-    {
-      resolve: `gatsby-remark-images-medium-zoom`, // Important!
-      options: {},
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
@@ -52,10 +41,12 @@ module.exports = {
         plugins: [
           `gatsby-plugin-postcss`,
           `gatsby-remark-emoji`,
+          `gatsby-remark-images-medium-zoom`, // Important!
           {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 630,
+              linkImagesToOriginal: false, // Important!
             },
           },
           {

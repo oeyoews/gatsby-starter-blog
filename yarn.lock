@@ -1496,13 +1496,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fastly/performance-observer-polyfill@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "@fastly/performance-observer-polyfill@npm:1.1.1"
-  checksum: 36fc921390dca1e0c96ed2a4a1cbe9b11afd908547dbf24025f035920e39b75a1d26f1bea4ff546757a69b5ae328a94ff26ffe603ea5712213532a177ad88635
-  languageName: node
-  linkType: hard
-
 "@fontsource/merriweather@npm:^4.5.14":
   version: 4.5.14
   resolution: "@fontsource/merriweather@npm:4.5.14"
@@ -7335,16 +7328,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-remark-images-medium-zoom@npm:^1.7.0":
-  version: 1.7.0
-  resolution: "gatsby-remark-images-medium-zoom@npm:1.7.0"
-  dependencies:
-    "@fastly/performance-observer-polyfill": ^1.1.1
-    medium-zoom: ^1.0.4
-  checksum: 354c026cb29263b41764ec8c7a2c43bab003383371ff2891353254433004ef0cd69eb83fe14a61474ba075e58e70556fa0d176c126a95e9e2064a060be111fb6
-  languageName: node
-  linkType: hard
-
 "gatsby-remark-images@npm:^7.8.0":
   version: 7.8.0
   resolution: "gatsby-remark-images@npm:7.8.0"
@@ -7450,7 +7433,6 @@ __metadata:
     gatsby-plugin-sharp: ^5.8.1
     gatsby-remark-emoji: ^0.0.3
     gatsby-remark-images: ^7.8.0
-    gatsby-remark-images-medium-zoom: ^1.7.0
     gatsby-remark-prismjs: ^7.8.0
     gatsby-remark-responsive-iframe: ^6.8.0
     gatsby-source-filesystem: ^5.8.0
@@ -9950,13 +9932,6 @@ __metadata:
   version: 0.3.0
   resolution: "media-typer@npm:0.3.0"
   checksum: af1b38516c28ec95d6b0826f6c8f276c58aec391f76be42aa07646b4e39d317723e869700933ca6995b056db4b09a78c92d5440dc23657e6764be5d28874bba1
-  languageName: node
-  linkType: hard
-
-"medium-zoom@npm:^1.0.4":
-  version: 1.0.8
-  resolution: "medium-zoom@npm:1.0.8"
-  checksum: b65be8546ab255936271e15a17524677808774140199e58c4dc0bae131b504a13e481c4f483ca8a862d32636dd4996bd7ed0a005c1f6213c3c764aa03fbbc48e
   languageName: node
   linkType: hard
 

@@ -41,12 +41,11 @@ module.exports = {
         plugins: [
           `gatsby-plugin-postcss`,
           `gatsby-remark-emoji`,
-          `gatsby-remark-images-medium-zoom`, // Important!
           {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 630,
-              linkImagesToOriginal: false, // Important!
+              linkImagesToOriginal: false,
             },
           },
           {

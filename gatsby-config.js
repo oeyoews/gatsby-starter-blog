@@ -38,6 +38,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          `gatsby-plugin-postcss`,
           `gatsby-remark-emoji`,
           {
             resolve: `gatsby-remark-images`,

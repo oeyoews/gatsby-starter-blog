@@ -39,7 +39,9 @@ const BlogIndex = ({ data, location }) => {
                 <header>
                   <h2>
                     <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
+                      <span itemProp="headline" class="hover:text-blue-500">
+                        {title}
+                      </span>
                     </Link>
                   </h2>
                   <small>{post.frontmatter.date}</small>

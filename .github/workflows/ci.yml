@@ -16,7 +16,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  release-and-page:
+  Gastby:
     runs-on: ubuntu-latest
     permissions:
       pages: write

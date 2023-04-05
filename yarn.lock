@@ -4529,7 +4529,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cheerio@npm:^1.0.0-rc.10, cheerio@npm:^1.0.0-rc.2":
+"cheerio@npm:^1.0.0-rc.10":
   version: 1.0.0-rc.12
   resolution: "cheerio@npm:1.0.0-rc.12"
   dependencies:
@@ -7142,18 +7142,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-catch-links@npm:^5.8.0":
-  version: 5.8.0
-  resolution: "gatsby-plugin-catch-links@npm:5.8.0"
-  dependencies:
-    "@babel/runtime": ^7.20.13
-    escape-string-regexp: ^1.0.5
-  peerDependencies:
-    gatsby: ^5.0.0-next
-  checksum: 848c3b01f084691eb5146b25c39331c0ec34dda86d8022d2a9170a65c464da78bca318feee90ff79ed1330992ebc88c5616d5d315f2917c5cb0ad6883a0b5e61
-  languageName: node
-  linkType: hard
-
 "gatsby-plugin-feed@npm:^5.8.0":
   version: 5.8.0
   resolution: "gatsby-plugin-feed@npm:5.8.0"
@@ -7407,18 +7395,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-remark-twemoji-shortcut@npm:^0.10.1":
-  version: 0.10.1
-  resolution: "gatsby-remark-twemoji-shortcut@npm:0.10.1"
-  dependencies:
-    cheerio: ^1.0.0-rc.2
-    twemoji: ^11.0.0
-  peerDependencies:
-    gatsby-transformer-remark: ^1.7.42
-  checksum: ae0737bb97a4139b307660beb924dc781de78c1ab078b295a86316f2f9a9d97b061fead0a876b470b1f89622d5102aa85e03c889c577e6bb25a3930c6dcea7f4
-  languageName: node
-  linkType: hard
-
 "gatsby-script@npm:^2.8.0":
   version: 2.8.0
   resolution: "gatsby-script@npm:2.8.0"
@@ -7467,7 +7443,6 @@ __metadata:
     "@fontsource/montserrat": ^4.5.14
     autoprefixer: ^10.4.14
     gatsby: ^5.8.1
-    gatsby-plugin-catch-links: ^5.8.0
     gatsby-plugin-feed: ^5.8.0
     gatsby-plugin-image: ^3.8.0
     gatsby-plugin-manifest: ^5.8.0
@@ -7478,7 +7453,6 @@ __metadata:
     gatsby-remark-images: ^7.8.0
     gatsby-remark-prismjs: ^7.8.0
     gatsby-remark-responsive-iframe: ^6.8.0
-    gatsby-remark-twemoji-shortcut: ^0.10.1
     gatsby-source-filesystem: ^5.8.0
     gatsby-transformer-remark: ^6.8.0
     gatsby-transformer-sharp: ^5.8.0
@@ -14031,13 +14005,6 @@ __metadata:
   dependencies:
     safe-buffer: ^5.0.1
   checksum: 05f6510358f8afc62a057b8b692f05d70c1782b70db86d6a1e0d5e28a32389e52fa6e7707b6c5ecccacc031462e4bc35af85ecfe4bbc341767917b7cf6965711
-  languageName: node
-  linkType: hard
-
-"twemoji@npm:^11.0.0":
-  version: 11.3.0
-  resolution: "twemoji@npm:11.3.0"
-  checksum: 73cb34f2afb00e53ee07afbd5f4e1c8008097d9371482c752bca313d26f6f2c6ae4051a6ad5c9cb9c0c681de9231c30fe04e6026a7abbb8fbe276d43e6df48cb
   languageName: node
   linkType: hard
 

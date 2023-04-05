@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 05 Apr 2023 11:23:16 GMT</lastBuildDate><item><title><![CDATA[Gastby Record]]></title><description><![CDATA[hosting only choice one（netlify, vercel, ...) netlify cms 可以通过 gastby 插件进行支持（还没试) Gastby have many templates Gastby project struct is…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/GastbyRecord/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/GastbyRecord/</guid><pubDate>Tue, 04 Apr 2023 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 05 Apr 2023 11:26:22 GMT</lastBuildDate><item><title><![CDATA[Gastby Record]]></title><description><![CDATA[hosting only choice one（netlify, vercel, ...) netlify cms 可以通过 gastby 插件进行支持（还没试) Gastby have many templates Gastby project struct is…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/GastbyRecord/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/GastbyRecord/</guid><pubDate>Tue, 04 Apr 2023 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
 &lt;li&gt;hosting only choice one（netlify, vercel, ...)&lt;/li&gt;
 &lt;li&gt;netlify cms 可以通过 gastby 插件进行支持（还没试)&lt;/li&gt;
 &lt;li&gt;Gastby have many templates&lt;/li&gt;
@@ -44,14 +44,7 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
     &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsby-starter-blog/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
+      &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 75.31645569620254%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dXC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACERIy/9oACAEBAAEFAkqW7B5Zox9t8n//xAAXEQEAAwAAAAAAAAAAAAAAAAAAERJB/9oACAEDAQE/AdVl/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEC/9oACAECAQE/AYun/8QAGxAAAQQDAAAAAAAAAAAAAAAAAAECESEiMTL/2gAIAQEABj8CvRjaHMkvIQo//8QAGxAAAwEBAAMAAAAAAAAAAAAAAREhAEGBobH/2gAIAQEAAT8hsTTH203YINmYDPHckkPzQiAnv//aAAwDAQACAAMAAAAQyC//xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAEDAQE/EBHDK6y//8QAGBEAAgMAAAAAAAAAAAAAAAAAAAERIVH/2gAIAQIBAT8QWiS0j//EABwQAQEAAgMBAQAAAAAAAAAAAAERADEhYYFB4f/aAAgBAQABPxBOzi0NHmChLtHkL9EcWZeCVJ1kcRoVp3lEYcnjEk0ES7/Jn//Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -71,7 +64,6 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
       /&gt;
-  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;You can also write code blocks here!&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; saltyDuckEgg &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;chinese preserved food product&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;

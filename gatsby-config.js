@@ -41,6 +41,8 @@ module.exports = {
         plugins: [
           `gatsby-plugin-postcss`,
           `gatsby-remark-emoji`,
+          `gatsby-remark-autolink-headers`,
+          `gatsby-remark-prismjs`,
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -54,7 +56,6 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
         ],
       },
     },

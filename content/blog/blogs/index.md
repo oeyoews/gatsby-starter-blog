@@ -1,6 +1,6 @@
 ---
 date: 2023-04-04T00:00:00.000Z
-title: 笔记工具
+title: Notes Tools
 ---
 ## General :rocket:
 

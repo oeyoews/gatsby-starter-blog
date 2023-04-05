@@ -113,3 +113,4 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [ ] searchable
 - [ ] add tag(maybe)
 - [ ] add draft true
+- [ ] add logo

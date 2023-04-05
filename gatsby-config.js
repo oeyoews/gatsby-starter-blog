@@ -8,7 +8,8 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  pathPrefix: "/gatsby-starter-blog",
+  // https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/path-prefix/
+  pathPrefix: `/gatsby-starter-blog`,
   siteMetadata: {
     title: `Blog`,
     author: {

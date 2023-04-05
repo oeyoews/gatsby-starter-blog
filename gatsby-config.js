@@ -41,6 +41,17 @@ module.exports = {
         plugins: [
           `gatsby-plugin-postcss`,
           `gatsby-remark-emoji`,
+          {
+            resolve: `gatsby-remark-table-of-contents`,
+            options: {
+              exclude: "Table of Contents",
+              tight: false,
+              ordered: false,
+              fromHeading: 2,
+              toHeading: 3,
+              className: "table-of-contents",
+            },
+          },
           `gatsby-remark-autolink-headers`,
           `gatsby-remark-prismjs`,
           {

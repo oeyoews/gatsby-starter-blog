@@ -7267,6 +7267,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-plugin-tags@npm:^2.3.7":
+  version: 2.3.7
+  resolution: "gatsby-plugin-tags@npm:2.3.7"
+  dependencies:
+    lodash: ^4.17.15
+    slug: ^1.1.0
+  peerDependencies:
+    gatsby: ">2.0.0-beta"
+  checksum: 35680fe1ab8dda46428bf74657941fb2a1ed5cdf5146061413781b6be8e669fc35342a331d8ca88879f6423aef82e2d694046685c96ea59e81a7e2fc9289c212
+  languageName: node
+  linkType: hard
+
 "gatsby-plugin-typescript@npm:^5.8.0":
   version: 5.8.0
   resolution: "gatsby-plugin-typescript@npm:5.8.0"
@@ -7395,6 +7407,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-remark-table-of-contents@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "gatsby-remark-table-of-contents@npm:2.0.0"
+  dependencies:
+    js-yaml: ^3.14.1
+    mdast-util-toc: ^5.1.0
+  checksum: 2e02c8542954df9f4869ff7b9ed639d989b6c3d604f6baeed0155fb462e5e400012546fb4292e4930ebfd6ee7cbe6554e88c8ed25cd1aebbb279e73494409245
+  languageName: node
+  linkType: hard
+
 "gatsby-script@npm:^2.8.0":
   version: 2.8.0
   resolution: "gatsby-script@npm:2.8.0"
@@ -7448,11 +7470,13 @@ __metadata:
     gatsby-plugin-manifest: ^5.8.0
     gatsby-plugin-postcss: ^6.8.0
     gatsby-plugin-sharp: ^5.8.1
+    gatsby-plugin-tags: ^2.3.7
     gatsby-remark-autolink-headers: ^6.8.0
     gatsby-remark-emoji: ^0.0.3
     gatsby-remark-images: ^7.8.0
     gatsby-remark-prismjs: ^7.8.0
     gatsby-remark-responsive-iframe: ^6.8.0
+    gatsby-remark-table-of-contents: ^2.0.0
     gatsby-source-filesystem: ^5.8.0
     gatsby-transformer-remark: ^6.8.0
     gatsby-transformer-sharp: ^5.8.0
@@ -9192,7 +9216,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^3.13.1":
+"js-yaml@npm:^3.13.1, js-yaml@npm:^3.14.1":
   version: 3.14.1
   resolution: "js-yaml@npm:3.14.1"
   dependencies:
@@ -13131,6 +13155,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"slug@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "slug@npm:1.1.0"
+  dependencies:
+    unicode: ">= 0.3.1"
+  bin:
+    slug: bin/slug.js
+  checksum: 32df486965f7233816f955617022f7c5ecfbd0bda412304d823aab1b4d710a62ba166ad479ed2bd79853799122b64945a41aa2074345bdb3a22157239b84ee02
+  languageName: node
+  linkType: hard
+
 "slugify@npm:^1.6.5":
   version: 1.6.6
   resolution: "slugify@npm:1.6.6"
@@ -14170,6 +14205,13 @@ __metadata:
   version: 2.1.0
   resolution: "unicode-property-aliases-ecmascript@npm:2.1.0"
   checksum: 243524431893649b62cc674d877bd64ef292d6071dd2fd01ab4d5ad26efbc104ffcd064f93f8a06b7e4ec54c172bf03f6417921a0d8c3a9994161fe1f88f815b
+  languageName: node
+  linkType: hard
+
+"unicode@npm:>= 0.3.1":
+  version: 14.0.0
+  resolution: "unicode@npm:14.0.0"
+  checksum: 4a5db4657ce8167980c3ca25619be07bc38d6bec51f9d1ae16665cd906dde7b9a5b0ce3db672b9aff1408d26bf6ab43cf92d8924b90e1c64723e3a8a0e9694ad
   languageName: node
   linkType: hard
 

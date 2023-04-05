@@ -34,7 +34,7 @@ jobs:
 
       - name: Install Dependency
         run: |
-          yarn install --production
+          yarn install
 
       - name: Build
         run: |

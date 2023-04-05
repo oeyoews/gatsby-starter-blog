@@ -21,7 +21,17 @@ module.exports = {
     // menuLinks: []
   },
   plugins: [
-    `gatsby-plugin-image`,
+    {
+      resolve: `gatsby-remark-images`,
+      options: {
+        maxWidth: 590,
+        linkImagesToOriginal: false, // Important!
+      },
+    },
+    {
+      resolve: `gatsby-remark-images-medium-zoom`, // Important!
+      options: {},
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

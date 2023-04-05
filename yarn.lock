@@ -7436,6 +7436,7 @@ __metadata:
     gatsby-remark-prismjs: ^7.8.0
     gatsby-remark-responsive-iframe: ^6.8.0
     gatsby-source-filesystem: ^5.8.0
+    gatsby-transformer-json: ^5.8.0
     gatsby-transformer-remark: ^6.8.0
     gatsby-transformer-sharp: ^5.8.0
     postcss: ^8.4.21
@@ -7464,6 +7465,18 @@ __metadata:
     lodash: ^4.17.21
     node-fetch: ^2.6.8
   checksum: d8c2079ae36158262bdc36f078a412067e5fcf43d5da6481f662f903a13e712a4afa107bf7ce45d9f4febc974b8cdb3b39eebfddbf8607187d8a5425f513c959
+  languageName: node
+  linkType: hard
+
+"gatsby-transformer-json@npm:^5.8.0":
+  version: 5.8.0
+  resolution: "gatsby-transformer-json@npm:5.8.0"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    bluebird: ^3.7.2
+  peerDependencies:
+    gatsby: ^5.0.0-next
+  checksum: c5c945ca1c7a19d4bcecd39f402cd6450362ff8f4cc1eb2b9119cfc2a9c30bc6898c97d45d98aa13e7ac92d13364c76421a484d5ea764f6e92466e3a883fd0b7
   languageName: node
   linkType: hard
 

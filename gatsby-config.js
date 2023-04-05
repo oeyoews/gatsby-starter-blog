@@ -21,12 +21,25 @@ module.exports = {
     // menuLinks: []
   },
   plugins: [
+    {
+      resolve: `gatsby-transformer-json`,
+      options: {
+        typeName: `DataJson`, // a fixed string
+      },
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
         name: `blog`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `json`,
+        path: `${__dirname}/content/json`,
       },
     },
     {

@@ -114,3 +114,4 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [ ] add tag(maybe)
 - [ ] add draft true
 - [ ] add logo
+- [ ] create json template

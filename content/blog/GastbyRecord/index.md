@@ -13,3 +13,4 @@ date: 2023-04-04T00:00:00.000Z
 - SSG render is very fast
 - 可以同时使用多套主题，blog, notes, 两个路由使用两个主题
 - support tailwindcss easily
+- dont use md and mdx mixed (at present not familiar)

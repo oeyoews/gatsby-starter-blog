@@ -1,7 +1,7 @@
 ---
 title: Resume
 author: oeyoews
-description: Personal Resume
+description: "Personal Resume \U0001F44B"
 ---
 <!-- online -->
 <div class="print:hidden">

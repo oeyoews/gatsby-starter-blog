@@ -284,6 +284,12 @@ a:focus {
   font-size: var(--fontSize-2);
 }
 
+@media print {
+  .header-link-home {
+    display: none;
+  }
+}
+
 .bio {
   display: flex;
   margin-bottom: var(--spacing-16);

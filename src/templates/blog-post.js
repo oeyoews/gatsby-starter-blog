@@ -17,11 +17,13 @@ const BlogPostTemplate = ({
         itemScope
         itemType="http://schema.org/Article"
       >
-        <header>
-          <h1 itemProp="headline" className="">
+        <header className="">
+          <h2 itemProp="headline" className="flex items-center justify-center">
             {post.frontmatter.title}
-          </h1>
-          <small className="italic">{post.frontmatter.date}</small>
+          </h2>
+          <small className="flex items-center justify-center italic">
+            {post.frontmatter.date}
+          </small>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}

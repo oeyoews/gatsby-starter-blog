@@ -110,7 +110,6 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [ ] add zoomjs
 - [ ] add lastupdated
 - [x] TOC???
-- [ ] searchable
 - [ ] add tag(maybe)
 - [ ] add draft true
 - [ ] add logo
@@ -118,6 +117,8 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [ ] and pwa(offline)
 - [ ] add blog.oeyoews.top
 - [ ] change project name
+- [ ] add algolia search
+- [ ] after gastby exit, this terminal have some bug
 
 ## Links
 

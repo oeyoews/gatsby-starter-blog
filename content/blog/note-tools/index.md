@@ -30,7 +30,3 @@ class-name: "table-of-contents"
 ## Vue
 
 - **vitepress**(documents)
-
-<div class="font-bold bg-indigo-400 hover: underline">
-font-bold
-</div>

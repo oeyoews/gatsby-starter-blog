@@ -50,7 +50,9 @@ description: "Personal Resume \U0001F44B"
 
 ## Self-evaluation
 
+<div class="indent-4">
 With good learning ability and self-drive, I pay attention to code norms and maintainability. I have a solid foundation in front-end programming. At the same time, I have good teamwork and stress resistance abilities, pay attention to learning and growth, and can quickly adapt to new environments and technologies.
+</div>
 
 </div>
 
@@ -118,6 +120,9 @@ With good learning ability and self-drive, I pay attention to code norms and mai
 
 ## 自我评价
 
-&emsp;&emsp;具备良好的学习能力和自我驱动力，注重代码规范和可维护性。具备较为扎实的前端编程基础。同时，我具备良好的团队协作和抗压能力，注重学习和成长，能够快速适应新环境和新技术。
+<!-- &emsp;&emsp; -->
+<div class="indent-8">
+具备良好的学习能力和自我驱动力，注重代码规范和可维护性。具备较为扎实的前端编程基础。同时，我具备良好的团队协作和抗压能力，注重学习和成长，能够快速适应新环境和新技术。
+</div>
 
 </div>

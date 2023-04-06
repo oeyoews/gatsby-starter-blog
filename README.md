@@ -119,6 +119,7 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [ ] change project name
 - [ ] add algolia search
 - [ ] after gastby exit, this terminal have some bug
+- [ ] slug support
 
 ## Links
 

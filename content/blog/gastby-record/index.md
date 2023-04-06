@@ -1,6 +1,7 @@
 ---
 title: Gastby Record
 date: 2023-04-04T00:00:00.000Z
+description: record gastby for blog
 ---
 - hosting only choice one（netlify, vercel, ...)
 - netlify cms 可以通过 gastby 插件进行支持（还没试)

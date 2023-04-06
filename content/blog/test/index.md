@@ -49,6 +49,16 @@ formulas correctly. Include the CSS file in your template ([example][4])
 require(`katex/dist/katex.min.css`)
 ```
 
+<div>
+  <article class="print:hidden">
+    <h2>My Secret Pizza Recipe</h2>
+    <p>This recipe is a secret, and must not be shared with anyone</p>
+  </article>
+  <div class="hidden font-bold print:flex justify-center text-white cursor-pointer bg-indigo-400 p-2 rounded mt-1">
+    Are you seriously trying to print this? It's secret!
+  </div>
+</div>
+
 [1]: https://www.gatsbyjs.com/plugins/gatsby-remark-katex/
 [2]: https://github.com/Rokt33r/remark-math
 [3]: https://github.com/Khan/KaTeX

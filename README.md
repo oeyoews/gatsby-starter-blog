@@ -120,6 +120,8 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [ ] add algolia search
 - [ ] after gastby exit, this terminal have some bug
 - [ ] slug support
+- [ ] support use tailwindcss on markdown file
+- [ ] use card or magazine view with tailwindcss
 
 ## Links
 

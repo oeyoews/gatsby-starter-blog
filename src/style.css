@@ -339,3 +339,20 @@ body {
   size: auto; /* auto is the initial value */
   margin: 0mm; /* this affects the margin in the printer settings */
 }
+
+/* hide scrollbar */
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar,
+scrollbar-width {
+  display: none;
+}
+::-webkit-scrollbar:hover,
+scrollbar-width {
+  display: none;
+}
+::-moz-scrollbar {
+  display: none;
+}

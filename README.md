@@ -109,13 +109,13 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [ ] support notion api
 - [ ] add zoomjs
 - [ ] add lastupdated
-- [ ] TOC???
+- [x] TOC???
 - [ ] searchable
 - [ ] add tag(maybe)
 - [ ] add draft true
 - [ ] add logo
 - [ ] support social and katex
-- [ ]
+- [ ] and pwa(offline)
 
 ## Links
 

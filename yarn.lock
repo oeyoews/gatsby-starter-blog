@@ -2588,6 +2588,43 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@prefresh/babel-plugin@npm:^0.4.3":
+  version: 0.4.4
+  resolution: "@prefresh/babel-plugin@npm:0.4.4"
+  checksum: 1cd7e9b27936fd8947ecd7e4da70abd05935f44840af3d054ad87638d38ea61f304c45ff7610a4d56bde72e260ddee869cc45806738738edebe7d5a0fe96059a
+  languageName: node
+  linkType: hard
+
+"@prefresh/core@npm:^1.3.3":
+  version: 1.4.1
+  resolution: "@prefresh/core@npm:1.4.1"
+  peerDependencies:
+    preact: ^10.0.0
+  checksum: afac93e1225d871d88c47717f8b6a328abc9760b212836986fd8bb3017bb6737bb397e016b31c4f542722d0b9c05e1e43d1b5710a61c8efb5208d717d2bb1bba
+  languageName: node
+  linkType: hard
+
+"@prefresh/utils@npm:^1.1.2":
+  version: 1.1.3
+  resolution: "@prefresh/utils@npm:1.1.3"
+  checksum: a95b816d08a68f499489f1e0098effcda99ccba06c80986cb0dfbcda4fc9c8f8e3238603ead4ee35bb9fb7985de66b1a785d12c64fbc61600e0a8bd388fc2de0
+  languageName: node
+  linkType: hard
+
+"@prefresh/webpack@npm:^3.3.4":
+  version: 3.3.4
+  resolution: "@prefresh/webpack@npm:3.3.4"
+  dependencies:
+    "@prefresh/core": ^1.3.3
+    "@prefresh/utils": ^1.1.2
+  peerDependencies:
+    "@prefresh/babel-plugin": ^0.4.0
+    preact: ^10.4.0
+    webpack: ^4.0.0 || ^5.0.0
+  checksum: 49d2184856f7c3335d339b3cff52c85b9524c6b215c120f701bfc7053781adea8db8908f158a756a9234af09acedff101fd087f4adcda367b38ca6403a9e5442
+  languageName: node
+  linkType: hard
+
 "@sideway/address@npm:^4.1.3":
   version: 4.1.4
   resolution: "@sideway/address@npm:4.1.4"
@@ -3348,6 +3385,13 @@ __metadata:
     mime-types: ~2.1.34
     negotiator: 0.6.3
   checksum: 50c43d32e7b50285ebe84b613ee4a3aa426715a7d131b65b786e2ead0fd76b6b60091b9916d3478a75f11f162628a2139991b6c03ab3f1d9ab7c86075dc8eab4
+  languageName: node
+  linkType: hard
+
+"accessible-nprogress@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "accessible-nprogress@npm:2.1.2"
+  checksum: b42d79cba0be61aa991f7bbe6490d28d9954874c1168449cd186bddd83fc7d056fcdfef915f9e1bd87812a4fd26ed454a7f2879c80c32739408e8e6284315637
   languageName: node
   linkType: hard
 
@@ -7224,6 +7268,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-plugin-nprogress@npm:^5.8.0":
+  version: 5.8.0
+  resolution: "gatsby-plugin-nprogress@npm:5.8.0"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    accessible-nprogress: ^2.1.2
+  peerDependencies:
+    gatsby: ^5.0.0-next
+  checksum: 23de18a01232acc3df68534febc8e70219f72c8748f10d5f9df3d0dd9973c3cefe4d89b57bd564df673b3297a0fc3f2b9897433b3deb399e61eafb5476ccba68
+  languageName: node
+  linkType: hard
+
 "gatsby-plugin-page-creator@npm:^5.8.0":
   version: 5.8.0
   resolution: "gatsby-plugin-page-creator@npm:5.8.0"
@@ -7256,6 +7312,22 @@ __metadata:
     gatsby: ^5.0.0-next
     postcss: ^8.0.5
   checksum: 9c5cccff1ae28524c1591b2c026df7672331f11b3ab51da42d2d82ce3ea5871e6911c76c62f7f88e6d38ac6b9341362c75cdb6caaf29b11a571dbf50100e1ea3
+  languageName: node
+  linkType: hard
+
+"gatsby-plugin-preact@npm:^7.8.0":
+  version: 7.8.0
+  resolution: "gatsby-plugin-preact@npm:7.8.0"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+    "@gatsbyjs/webpack-hot-middleware": ^2.25.3
+    "@prefresh/babel-plugin": ^0.4.3
+    "@prefresh/webpack": ^3.3.4
+  peerDependencies:
+    gatsby: ^5.0.0-next
+    preact: ^10.3.4
+    preact-render-to-string: ^5.1.8
+  checksum: d1e441f7f630b9d410543cb12bddcf74bc44727a2e6223a1e0993ba29e35aceb702854e89cdd21f1ca08c100ec4f6163e4b58c57b4aaa5312fc52113bd5287ef
   languageName: node
   linkType: hard
 
@@ -7471,7 +7543,9 @@ __metadata:
     gatsby-plugin-feed: ^5.8.0
     gatsby-plugin-image: ^3.8.0
     gatsby-plugin-manifest: ^5.8.0
+    gatsby-plugin-nprogress: ^5.8.0
     gatsby-plugin-postcss: ^6.8.0
+    gatsby-plugin-preact: ^7.8.0
     gatsby-plugin-sharp: ^5.8.1
     gatsby-remark-autolink-headers: ^6.8.0
     gatsby-remark-emoji: ^0.0.3
@@ -7483,6 +7557,8 @@ __metadata:
     gatsby-transformer-remark: ^6.8.0
     gatsby-transformer-sharp: ^5.8.0
     postcss: ^8.4.21
+    preact: ^10.13.2
+    preact-render-to-string: ^6.0.2
     prettier: ^2.8.7
     prettier-plugin-tailwindcss: ^0.2.7
     prismjs: ^1.29.0
@@ -11919,6 +11995,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"preact-render-to-string@npm:^6.0.2":
+  version: 6.0.2
+  resolution: "preact-render-to-string@npm:6.0.2"
+  dependencies:
+    pretty-format: ^3.8.0
+  peerDependencies:
+    preact: ">=10"
+  checksum: 5c1b27323ad679236046835c635089cf7b2f802d4c2412a78ad9fcf91b042a1b3bd4641500dc507d9f763a430ceb834c5a2e328e52923698960bb66621b76e87
+  languageName: node
+  linkType: hard
+
+"preact@npm:^10.13.2":
+  version: 10.13.2
+  resolution: "preact@npm:10.13.2"
+  checksum: 3bc98aa09bcd297eb59abd7e4f3a4d499b8e345bd68b922f7678ef105ba4721dc9b9940b221e6e3443f957d51402fe407bb96ccaa0a4b65d6808ca8a3be76bfa
+  languageName: node
+  linkType: hard
+
 "prebuild-install@npm:^7.1.1":
   version: 7.1.1
   resolution: "prebuild-install@npm:7.1.1"
@@ -12026,6 +12120,13 @@ __metadata:
     lodash: ^4.17.20
     renderkid: ^2.0.4
   checksum: 16775d06f9a695d17103414d610b1281f9535ee1f2da1ce1e1b9be79584a114aa7eac6dcdcc5ef151756d3c014dfd4ac1c7303ed8016d0cec12437cfdf4021c6
+  languageName: node
+  linkType: hard
+
+"pretty-format@npm:^3.8.0":
+  version: 3.8.0
+  resolution: "pretty-format@npm:3.8.0"
+  checksum: 21a114d43ef06978f8f7f6212be4649b0b094f05d9b30e14e37550bf35c8ca24d8adbca9e5adc4cc15d9eaf7a1e7a30478a4dc37b30982bfdf0292a5b385484c
   languageName: node
   linkType: hard
 

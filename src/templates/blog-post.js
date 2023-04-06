@@ -13,7 +13,7 @@ const BlogPostTemplate = ({
   return (
     <Layout location={location} title={siteTitle}>
       <article
-        className="blog-post prose prose-indigo"
+        className="blog-post prose prose-indigo prose-blockquote:not-italic"
         itemScope
         itemType="http://schema.org/Article"
       >

@@ -17,7 +17,6 @@
     "gatsby-plugin-manifest": "^5.8.0",
     "gatsby-plugin-postcss": "^6.8.0",
     "gatsby-plugin-sharp": "^5.8.1",
-    "gatsby-plugin-social-cards": "^0.5.18-rc5",
     "gatsby-remark-autolink-headers": "^6.8.0",
     "gatsby-remark-emoji": "^0.0.3",
     "gatsby-remark-images": "^7.8.0",

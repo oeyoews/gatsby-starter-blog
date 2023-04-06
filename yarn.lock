@@ -7267,19 +7267,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-social-cards@npm:^0.5.18-rc5":
-  version: 0.5.18-rc5
-  resolution: "gatsby-plugin-social-cards@npm:0.5.18-rc5"
-  peerDependencies:
-    gatsby: 2.x || 3.x
-    gatsby-plugin-sharp: 2.x || 3.x
-    react: ^16.8.6
-    react-dom: ^16.8.6
-    sharp: ^0.28.0
-  checksum: e1d9b24fb1b963f20bf58f4e8c627e46b72c4b7a462b3b155ec2fd968abb57b298b021095a3c891c12640ba1c1e5ef2a15938ae7ef26edd0f7e58a4ac3b11868
-  languageName: node
-  linkType: hard
-
 "gatsby-plugin-typescript@npm:^5.8.0":
   version: 5.8.0
   resolution: "gatsby-plugin-typescript@npm:5.8.0"
@@ -7471,7 +7458,6 @@ __metadata:
     gatsby-plugin-manifest: ^5.8.0
     gatsby-plugin-postcss: ^6.8.0
     gatsby-plugin-sharp: ^5.8.1
-    gatsby-plugin-social-cards: ^0.5.18-rc5
     gatsby-remark-autolink-headers: ^6.8.0
     gatsby-remark-emoji: ^0.0.3
     gatsby-remark-images: ^7.8.0

@@ -34,12 +34,12 @@ const BlogIndex = ({ data, location }) => {
                 itemScope
                 itemType="http://schema.org/Article"
               >
-                <header>
+                <header className="prose prose-a:no-underline">
                   <h2>
                     <Link to={post.fields.slug} itemProp="url">
                       <span
                         itemProp="headline"
-                        className="transition duration-200 hover:text-blue-500 hover:underline"
+                        className="transition duration-200 hover:underline"
                       >
                         {title}
                       </span>
@@ -47,7 +47,7 @@ const BlogIndex = ({ data, location }) => {
                   </h2>
                   <small>{post.frontmatter.date}</small>
                 </header>
-                <section>
+                <section className="">
                   <p
                     dangerouslySetInnerHTML={{
                       __html: post.frontmatter.description || post.excerpt,

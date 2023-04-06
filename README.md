@@ -116,6 +116,8 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [ ] add logo
 - [ ] support social and katex
 - [ ] and pwa(offline)
+- [ ] add blog.oeyoews.top
+- [ ] change project name
 
 ## Links
 

@@ -22,6 +22,19 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: "gatsby-plugin-social-cards",
+      options: {
+        // ommit to skip
+        authorImage: "./src/images/profile-pic.png",
+        // image to use when no cover in frontmatter
+        backgroundImage: "",
+        // author to use when no auth in frontmatter
+        defaultAuthor: "oeyoews",
+        // card design
+        design: "card", // 'default' or 'card'
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,

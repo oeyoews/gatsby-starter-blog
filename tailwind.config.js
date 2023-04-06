@@ -6,6 +6,9 @@ module.exports = {
     "./src/templates/**/*.{js,jsx,ts,tsx}",
     "./content/blog/**/*.md",
   ],
+  corePlugins: {
+    preflight: false,
+  },
   theme: {
     extend: {
       typography: ({ theme }) => ({

@@ -253,7 +253,7 @@ a:focus {
 }
 
 .main-heading {
-  font-size: var(--fontSize-7);
+  font-size: var(--fontSize-2);
   margin: 0;
 }
 
@@ -282,12 +282,6 @@ a:focus {
   font-family: var(--font-heading);
   text-decoration: none;
   font-size: var(--fontSize-2);
-}
-
-@media print {
-  .header-link-home {
-    display: none;
-  }
 }
 
 .bio {
@@ -338,4 +332,10 @@ a:focus {
 
 body {
   font-family: system-ui;
+}
+
+/* not work */
+@page print {
+  size: auto; /* auto is the initial value */
+  margin: 0mm; /* this affects the margin in the printer settings */
 }

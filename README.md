@@ -122,6 +122,7 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [ ] slug support
 - [ ] support use tailwindcss on markdown file
 - [ ] use card or magazine view with tailwindcss
+- [ ] support gh to home(keymapping)
 
 ## Links
 

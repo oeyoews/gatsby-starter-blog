@@ -15,8 +15,6 @@ to-heading: 6
 class-name: "table-of-contents"
 ```
 
-## [Jump To Test Page](../test)
-
 ## General :rocket:
 
 - **Tiddlywiki** as notes

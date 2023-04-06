@@ -124,6 +124,8 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [ ] use card or magazine view with tailwindcss
 - [ ] support gh to home(keymapping)
 - [ ] add logo after Blog
+- [ ] add copy button
+  - [ ] https://thundermiracle.com/blog/en/2022-11-05-migrate-from-gatsbyjs-to-next/
 
 ## Links
 

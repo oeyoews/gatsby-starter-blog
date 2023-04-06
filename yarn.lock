@@ -7452,6 +7452,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-remark-prismjs-copy-button@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "gatsby-remark-prismjs-copy-button@npm:0.3.1"
+  peerDependencies:
+    gatsby: ^3.0.0 || ^4.0.0
+  checksum: b781f0de1a79a5844ec1ec2dad47ea909aa346a31e93120b0826443b5e3a5cd74a5c1cfcfcd0f37c54dd233bbda44dd62898d741e2d44f88ecbed642ea91cc06
+  languageName: node
+  linkType: hard
+
 "gatsby-remark-prismjs@npm:^7.8.0":
   version: 7.8.0
   resolution: "gatsby-remark-prismjs@npm:7.8.0"
@@ -7551,6 +7560,7 @@ __metadata:
     gatsby-remark-emoji: ^0.0.3
     gatsby-remark-images: ^7.8.0
     gatsby-remark-prismjs: ^7.8.0
+    gatsby-remark-prismjs-copy-button: ^0.3.1
     gatsby-remark-responsive-iframe: ^6.8.0
     gatsby-remark-table-of-contents: ^2.0.0
     gatsby-source-filesystem: ^5.8.0

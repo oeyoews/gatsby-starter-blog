@@ -1,6 +1,7 @@
 ---
 title: Resume
 author: oeyoews
+description: Personal Resume
 ---
 <!-- online -->
 <div class="print:hidden">

@@ -13,12 +13,12 @@ const BlogPostTemplate = ({
   return (
     <Layout location={location} title={siteTitle}>
       <article
-        className="blog-post"
+        className="blog-post prose prose-indigo"
         itemScope
         itemType="http://schema.org/Article"
       >
         <header>
-          <h1 itemProp="headline" className="text-black">
+          <h1 itemProp="headline" className="">
             {post.frontmatter.title}
           </h1>
           <small className="italic">{post.frontmatter.date}</small>

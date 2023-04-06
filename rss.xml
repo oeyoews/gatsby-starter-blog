@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 06 Apr 2023 18:49:54 GMT</lastBuildDate><item><title><![CDATA[Personal Resume]]></title><description><![CDATA[Name Yao Dongjie Job Objective Front-End Developer Location Beijing Graduated from Xinyang Normal University Major Software Engineering…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/resume/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/resume/</guid><content:encoded>&lt;!-- online --&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 06 Apr 2023 18:59:39 GMT</lastBuildDate><item><title><![CDATA[Personal Resume]]></title><description><![CDATA[Name Yao Dongjie Job Objective Front-End Developer Location Beijing Graduated from Xinyang Normal University Major Software Engineering…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/resume/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/resume/</guid><content:encoded>&lt;!-- online --&gt;
 &lt;div class=&quot;print:hidden prose prose-indigo&quot;&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -67,7 +67,9 @@
 &lt;li&gt;Passionate about sports and knowledge management&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;self-evaluation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#self-evaluation&quot; aria-label=&quot;self evaluation permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Self-evaluation&lt;/h2&gt;
-&lt;p&gt;With good learning ability and self-drive, I pay attention to code norms and maintainability. I have a solid foundation in front-end programming. At the same time, I have good teamwork and stress resistance abilities, pay attention to learning and growth, and can quickly adapt to new environments and technologies.&lt;/p&gt;
+&lt;div class=&quot;indent-4&quot;&gt;
+With good learning ability and self-drive, I pay attention to code norms and maintainability. I have a solid foundation in front-end programming. At the same time, I have good teamwork and stress resistance abilities, pay attention to learning and growth, and can quickly adapt to new environments and technologies.
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!-- hidden --&gt;
 &lt;!-- cn --&gt;
@@ -128,7 +130,10 @@
 &lt;/ul&gt;
 &lt;!-- 在线博客 --&gt;
 &lt;h2 id=&quot;自我评价&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E8%87%AA%E6%88%91%E8%AF%84%E4%BB%B7&quot; aria-label=&quot;自我评价 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;自我评价&lt;/h2&gt;
-&lt;p&gt;  具备良好的学习能力和自我驱动力，注重代码规范和可维护性。具备较为扎实的前端编程基础。同时，我具备良好的团队协作和抗压能力，注重学习和成长，能够快速适应新环境和新技术。&lt;/p&gt;
+&lt;!-- &amp;emsp;&amp;emsp; --&gt;
+&lt;div class=&quot;indent-8&quot;&gt;
+具备良好的学习能力和自我驱动力，注重代码规范和可维护性。具备较为扎实的前端编程基础。同时，我具备良好的团队协作和抗压能力，注重学习和成长，能够快速适应新环境和新技术。
+&lt;/div&gt;
 &lt;/div&gt;</content:encoded></item><item><title><![CDATA[Gastby Record]]></title><description><![CDATA[hosting only choice one（netlify, vercel, ...) netlify cms 可以通过 gastby 插件进行支持（还没试) Gastby have many templates Gastby project struct is…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/gastby-record/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/gastby-record/</guid><pubDate>Tue, 04 Apr 2023 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
 &lt;li&gt;hosting only choice one（netlify, vercel, ...)&lt;/li&gt;
 &lt;li&gt;netlify cms 可以通过 gastby 插件进行支持（还没试)&lt;/li&gt;

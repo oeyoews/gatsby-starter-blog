@@ -55,7 +55,7 @@ module.exports = {
             options: {
               exclude: "Table of Contents",
               tight: false,
-              ordered: true,
+              ordered: false,
               fromHeading: 2,
               toHeading: 3,
               className: "table-of-contents",

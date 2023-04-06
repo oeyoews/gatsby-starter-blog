@@ -126,6 +126,7 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [ ] add logo after Blog
 - [ ] add copy button
   - [ ] https://thundermiracle.com/blog/en/2022-11-05-migrate-from-gatsbyjs-to-next/
+- [ ] use i18n
 
 ## Links
 

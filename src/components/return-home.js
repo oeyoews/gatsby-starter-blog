@@ -4,13 +4,17 @@ import { navigate } from "gatsby"
 const HomeShortcut = () => {
   useEffect(() => {
     const handleKeyPress = e => {
-      if (e.key === "h") {
+      if (e.key === "h" && typeof document !== "undefined") {
         navigate("/")
       }
     }
-    document.addEventListener("keydown", handleKeyPress)
+    if (typeof document !== "undefined") {
+      document.addEventListener("keydown", handleKeyPress)
+    }
     return () => {
-      document.removeEventListener("keydown", handleKeyPress)
+      if (typeof document !== "undefined") {
+        document.removeEventListener("keydown", handleKeyPress)
+      }
     }
   }, [])
 

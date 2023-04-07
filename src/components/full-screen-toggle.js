@@ -1,15 +1,22 @@
 import { useState, useEffect } from "react"
 
 function FullScreenToggle() {
-  const [isFullScreen, setIsFullScreen] = useState(!!document.fullscreenElement)
+  const [isFullScreen, setIsFullScreen] = useState(false)
 
   useEffect(() => {
     const toggleFullScreen = () => {
-      if (!isFullScreen) {
+      if (
+        !isFullScreen &&
+        typeof document !== "undefined" &&
+        !document.fullscreenElement
+      ) {
         document.documentElement.requestFullscreen().then(() => {
           setIsFullScreen(true)
         })
-      } else {
+      } else if (
+        typeof document !== "undefined" &&
+        document.fullscreenElement
+      ) {
         document.exitFullscreen().then(() => {
           setIsFullScreen(false)
         })

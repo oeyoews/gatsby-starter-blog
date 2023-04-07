@@ -3,6 +3,7 @@ title: Personal Resume
 author: oeyoews
 description: "Personal Resume \U0001F44B"
 ---
+
 <!-- online -->
 <div class="print:hidden prose prose-indigo">
 
@@ -142,7 +143,7 @@ With good learning ability and self-drive, I pay attention to code norms and mai
 
 <!-- &emsp;&emsp; -->
 <div class="indent-8">
-具备良好的学习能力和自我驱动力，注重代码规范和可维护性。具备较为扎实的前端编程基础。同时，我具备良好的团队协作和抗压能力，注重学习和成长，能够快速适应新环境和新技术。
+具备良好的学习能力和自我驱动力，注重代码规范和可维护性。具备较为扎实的前端编程基础。同时,具备良好的团队协作和抗压能力，能够快速适应新环境和新技术。
 </div>
 
 </div>

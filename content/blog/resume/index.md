@@ -6,7 +6,7 @@ description: "Personal Resume \U0001F44B"
 <!-- online -->
 <div class="print:hidden prose prose-indigo">
 
-| **Name**           | Yao Dongjie                |
+| **Name**           | Yao Dong Jie               |
 | ------------------ | -------------------------- |
 | **Job Objective**  | Front-End Developer        |
 | **Location**       | Beijing                    |
@@ -92,10 +92,10 @@ With good learning ability and self-drive, I pay attention to code norms and mai
 
 - 有较为扎实的前端编程基础, 了解 Web 标准及基本数据结构和算法
 - 熟悉以 Html,Css,Javascript 为基础技术的主流框架、库及工具, 了解其设计思想， 熟悉 React, Tailwindcss,DaisyUI 前端框架和工具
-- 多年 Linux 使用经验， 熟练使用 Linux 开发项目, Shell Script, makefile, KVM 虚拟机
+- 多年 Linux 使用经验， 熟练使用 Linux 开发项目, Shell Script, Makefile, KVM 虚拟机
 - 熟悉 GIT 管理代码，比如 commit, rebase, cherry, checkout 等命令
 - 熟悉 Jenkins、Github Actions、Gitlab CI/CD 等 CI/CD 工具
-- 熟悉 Nodejs, Yarn，npm
+- 熟悉 Nodejs, Yarn，Npm 等前端工具
 - 熟悉 Mysql(Mariadb), Mongodb 等数据库， 及 Navicat, Dbeaver，Workbench 等数据库工具的使用
 - 掌握 Lua, Java, Python
 - 具备良好的代码书写风格和快速查阅英文技术文档能力
@@ -111,7 +111,7 @@ With good learning ability and self-drive, I pay attention to code norms and mai
 
 ## 个人爱好
 
-- 喜欢 Linux 操作系统和 vim(neovim) 编辑器
+- 喜欢 Linux 操作系统和 Vim(Neovim) 编辑器
 - 热爱开源软件和版本控制工具 Git
 - 喜欢使用 Rss 阅读技术文章和使用 Markdown、TiddlyWiki 记笔记
 - 热爱运动和知识管理

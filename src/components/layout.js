@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 import FullScreenToggle from "../components/full-screen-toggle"
+import HomeShortcut from "./return-home"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -29,6 +30,7 @@ const Layout = ({ location, title, children }) => {
         <main>{children}</main>
       </div>
       <FullScreenToggle />
+      <HomeShortcut />
     </>
   )
 }

@@ -4,6 +4,7 @@ import { navigate } from "gatsby"
 const HomeShortcut = () => {
   useEffect(() => {
     const handleKeyPress = e => {
+      // remove that?
       if (e.key === "h" && typeof document !== "undefined") {
         navigate("/")
       }

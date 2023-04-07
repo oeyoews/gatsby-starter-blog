@@ -131,6 +131,7 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [ ] support GFM
 - [ ] add Fullscreen and download resume button(maybe need mdx)
 - [ ] support j/k to scrool page
+- [ ] support double click to return home
 
 ## Links
 

@@ -6,6 +6,12 @@ description: "Personal Resume \U0001F44B"
 <!-- online -->
 <div class="print:hidden prose prose-indigo">
 
+<div class="hidden md:flex justify-center items-center">
+<img class="rounded-full" src="https://gravatar.com/avatar/148e1716a35094238339c4337f725e08.png" alt="avatar oeyoews"/>
+</div>
+
+<div class="flex justify-center items-center">
+
 | **Name**           | Yao Dong Jie               |
 | ------------------ | -------------------------- |
 | **Job Objective**  | Front-End Developer        |
@@ -14,6 +20,8 @@ description: "Personal Resume \U0001F44B"
 | **Major**          | Software Engineering       |
 | **Email**          | jyao4783@gmail.com         |
 | **Github**         | https://github.com/oeyoews |
+
+</div>
 
 ## Education
 

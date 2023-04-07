@@ -1,7 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 
-// import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -22,45 +21,47 @@ const BlogIndex = ({ data, location }) => {
   }
 
   return (
-    <Layout location={location} title={siteTitle}>
-      <ol style={{ listStyle: `none` }}>
-        {posts.map(post => {
-          const title = post.frontmatter.title || post.fields.slug
+    <>
+      <Layout location={location} title={siteTitle}>
+        <ol style={{ listStyle: `none` }}>
+          {posts.map(post => {
+            const title = post.frontmatter.title || post.fields.slug
 
-          return (
-            <li key={post.fields.slug}>
-              <article
-                className="post-list-item"
-                itemScope
-                itemType="http://schema.org/Article"
-              >
-                <header className="prose prose-a:no-underline">
-                  <h2>
-                    <Link to={post.fields.slug} itemProp="url">
-                      <span
-                        itemProp="headline"
-                        className="transition duration-200 hover:underline"
-                      >
-                        {title}
-                      </span>
-                    </Link>
-                  </h2>
-                  <small className="italic">{post.frontmatter.date}</small>
-                </header>
-                <section className="">
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
-                    }}
-                    itemProp="description"
-                  />
-                </section>
-              </article>
-            </li>
-          )
-        })}
-      </ol>
-    </Layout>
+            return (
+              <li key={post.fields.slug}>
+                <article
+                  className="post-list-item"
+                  itemScope
+                  itemType="http://schema.org/Article"
+                >
+                  <header className="prose prose-a:no-underline">
+                    <h2>
+                      <Link to={post.fields.slug} itemProp="url">
+                        <span
+                          itemProp="headline"
+                          className="transition duration-200 hover:underline"
+                        >
+                          {title}
+                        </span>
+                      </Link>
+                    </h2>
+                    <small className="italic">{post.frontmatter.date}</small>
+                  </header>
+                  <section className="">
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: post.frontmatter.description || post.excerpt,
+                      }}
+                      itemProp="description"
+                    />
+                  </section>
+                </article>
+              </li>
+            )
+          })}
+        </ol>
+      </Layout>
+    </>
   )
 }
 

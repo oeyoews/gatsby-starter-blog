@@ -115,7 +115,7 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [ ] add logo
 - [ ] support social and katex
 - [ ] and pwa(offline)
-- [ ] add blog.oeyoews.top
+- [x] add blog.oeyoews.top
 - [ ] change project name
 - [ ] add algolia search
 - [ ] after gastby exit, this terminal have some bug
@@ -128,6 +128,7 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
   - [ ] https://thundermiracle.com/blog/en/2022-11-05-migrate-from-gatsbyjs-to-next/
 - [ ] use i18n
 - [ ] add paging for blog
+- [ ] support GFM
 
 ## Links
 

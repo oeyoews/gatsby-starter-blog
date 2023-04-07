@@ -87,14 +87,14 @@ With good learning ability and self-drive, I pay attention to code norms and mai
 - 专业：软件工程
 - 期望薪资： 8k-10k
 
+</div>
+
 ### 联系方式
 
 - 电话： 13717953724
 - 邮箱： jyao4783@gmail.com
 - Github: https://github.com/oeyoews
 - 简历： https://blog.oeyoewl.top/resume
-
-</div>
 
 ## 教育经历
 

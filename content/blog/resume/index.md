@@ -7,7 +7,7 @@ description: "Personal Resume \U0001F44B"
 <div class="print:hidden prose prose-indigo">
 
 <div class="hidden md:flex justify-center items-center">
-<img class="rounded-full w-16" src="https://gravatar.com/avatar/148e1716a35094238339c4337f725e08.png?s=256" alt="avatar oeyoews"/>
+<img class="rounded-full w-16 shadow-lg" src="https://gravatar.com/avatar/148e1716a35094238339c4337f725e08.png?s=256" alt="avatar oeyoews"/>
 </div>
 
 <div class="flex justify-center items-center">

@@ -9,6 +9,7 @@ module.exports = {
   corePlugins: {
     preflight: false,
   },
+  darkMode: "class",
   theme: {
     extend: {
       typography: ({ theme }) => ({

@@ -129,6 +129,7 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [ ] use i18n
 - [ ] add paging for blog
 - [ ] support GFM
+- [ ] add Fullscreen and download resume button(maybe need mdx)
 
 ## Links
 

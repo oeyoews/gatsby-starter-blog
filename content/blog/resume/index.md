@@ -85,10 +85,14 @@ With good learning ability and self-drive, I pay attention to code norms and mai
 - 年龄： 23
 - 毕业院校： 信阳师范学院
 - 专业：软件工程
-- 邮箱： jyao4783@gmail.com
-- 联系电话： 13717953724
 - 期望薪资： 8k-10k
+
+### 联系方式
+
+- 电话： 13717953724
+- 邮箱： jyao4783@gmail.com
 - Github: https://github.com/oeyoews
+- 简历： https://blog.oeyoewl.top/resume
 
 </div>
 

@@ -132,6 +132,7 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [ ] add Fullscreen and download resume button(maybe need mdx)
 - [ ] support j/k to scrool page
 - [ ] support double click to return home
+- [ ] breadcrumb https://github.com/sbardian/gatsby-plugin-breadcrumb
 
 ## Links
 

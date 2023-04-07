@@ -14,10 +14,10 @@ module.exports = {
     title: `Blog`,
     author: {
       name: `oeyoews`,
-      summary: ``,
+      summary: `Personal blog`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://blog.oeyoewl.top`,
     // menuLinks: []
   },
   plugins: [

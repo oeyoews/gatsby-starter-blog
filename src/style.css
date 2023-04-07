@@ -334,12 +334,6 @@ body {
   font-family: system-ui;
 }
 
-/* not work */
-@page print {
-  size: auto; /* auto is the initial value */
-  margin: 0mm; /* this affects the margin in the printer settings */
-}
-
 /* hide scrollbar */
 * {
   scrollbar-width: none;
@@ -355,4 +349,68 @@ scrollbar-width {
 }
 ::-moz-scrollbar {
   display: none;
+}
+
+/* bar */
+#page-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 3px;
+  /* background-color: #ddd; */
+  z-index: 899;
+}
+
+#page-progress-bar {
+  background: linear-gradient(135deg, #12c2e9, #ffafbd, #c9ffbf);
+  height: 100%;
+  background-color: #007bff;
+  width: 0;
+  border-radius: 9px;
+  transition: width 0.3s ease-in-out;
+  /* animation: progress-bar 1s ease-out infinite; */
+}
+
+progress {
+  width: 100%;
+  height: 4px;
+  border-radius: 9px;
+  overflow: hidden;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* 手机端样式 */
+@media (max-width: 767px) {
+  .progress {
+    height: 2px;
+    border-radius: 4px;
+  }
+}
+
+::-webkit-progress-bar {
+  background-color: white;
+}
+
+::-webkit-progress-value {
+  /* background: linear-gradient(to right, #007aff, #00d4ff); */
+  background: linear-gradient(135deg, #12c2e9, #ffafbd, #c9ffbf);
+  /* filter: brightness(0.8); */
+  width: 50%;
+  /* transition: width 0.5s ease; */
+  animation: progress-bar 1s ease-out infinite;
+}
+
+@keyframes progress-bar {
+  0% {
+    box-shadow: 0 0 1px #007aff;
+  }
+  50% {
+    box-shadow: 0 0 2px #007aff;
+  }
+  100% {
+    box-shadow: 0 0 1px #007aff;
+  }
 }

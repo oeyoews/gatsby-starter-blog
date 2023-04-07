@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import FullScreenToggle from "../components/full-screen-toggle"
 import HomeShortcut from "./return-home"
+import ProgressBar from "./progressbar"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -31,6 +32,7 @@ const Layout = ({ location, title, children }) => {
       </div>
       <FullScreenToggle />
       <HomeShortcut />
+      <ProgressBar />
     </>
   )
 }

@@ -79,13 +79,13 @@ With good learning ability and self-drive, I pay attention to code norms and mai
 
 - 姓名： 姚东杰
 - 求职意向: 前端开发工程师
-- 工作地点：北京
-- 民族： 汉
-- 性别： 男
-- 年龄： 23
+  <!-- - 工作地点：北京 -->
+  <!-- - 民族： 汉 -->
+  <!-- - 性别： 男 -->
+  <!-- - 年龄： 23 -->
 - 毕业院校： 信阳师范学院
 - 专业：软件工程
-- 期望薪资： 8k-10k
+<!-- - 期望薪资： 8k-10k -->
 
 </div>
 
@@ -93,8 +93,8 @@ With good learning ability and self-drive, I pay attention to code norms and mai
 
 - 电话： 13717953724
 - 邮箱： jyao4783@gmail.com
-- Github: https://github.com/oeyoews
-- 简历： https://blog.oeyoewl.top/resume
+  <!-- - Github: https://github.com/oeyoews -->
+  <!-- - 简历： https://blog.oeyoewl.top/resume -->
 
 ## 教育经历
 

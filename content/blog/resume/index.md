@@ -19,6 +19,8 @@ description: "Personal Resume \U0001F44B"
 
 ### Main Courses
 
+<div class="md:columns-2 columns-1">
+
 - Data Structures and Algorithms
 - Computer Organization and Architecture
 - Operating Systems
@@ -27,6 +29,8 @@ description: "Personal Resume \U0001F44B"
 - Compiler Principles
 - Web Development Technologies
 - Mobile Application Development
+
+</div>
 
 ## Technical Skills
 
@@ -62,6 +66,8 @@ With good learning ability and self-drive, I pay attention to code norms and mai
 
 ## 个人简历
 
+<div class="md:columns-2 columns-1">
+
 - 姓名： 姚东杰
 - 求职意向: 前端开发工程师
 - 工作地点：北京
@@ -75,9 +81,13 @@ With good learning ability and self-drive, I pay attention to code norms and mai
 - 期望薪资： 8k-10k
 - Github: https://github.com/oeyoews
 
+</div>
+
 ## 教育经历
 
 ### 主修课程
+
+<div class="md:columns-2 columns-1">
 
 - 数据结构与算法
 - 计算机组成原理
@@ -87,6 +97,8 @@ With good learning ability and self-drive, I pay attention to code norms and mai
 - 编译原理
 - Web 开发技术
 - 移动应用开发
+
+</div>
 
 ## 专业技能
 
@@ -109,12 +121,12 @@ With good learning ability and self-drive, I pay attention to code norms and mai
 <!-- ## 实习经历 -->
 <!-- ### Java -->
 
-## 个人爱好
+<!-- ## 个人爱好
 
 - 喜欢 Linux 操作系统和 Vim(Neovim) 编辑器
 - 热爱开源软件和版本控制工具 Git
 - 喜欢使用 Rss 阅读技术文章和使用 Markdown、TiddlyWiki 记笔记
-- 热爱运动和知识管理
+- 热爱运动和知识管理 -->
 
 <!-- 在线博客 -->
 
@@ -126,3 +138,6 @@ With good learning ability and self-drive, I pay attention to code norms and mai
 </div>
 
 </div>
+
+<!-- todo -->
+<!-- - add print button -->

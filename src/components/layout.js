@@ -24,11 +24,11 @@ const Layout = ({ location, title, children }) => {
 
   return (
     <>
-      <FullScreenToggle />
       <div className="global-wrapper" data-is-root-path={isRootPath}>
         <header className="global-header">{header}</header>
         <main>{children}</main>
       </div>
+      <FullScreenToggle />
     </>
   )
 }

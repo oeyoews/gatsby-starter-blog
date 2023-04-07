@@ -1,18 +1,19 @@
-// import * as React from "react"
-
 import { useState, useEffect } from "react"
 
 function FullScreenToggle() {
-  const [isFullScreen, setIsFullScreen] = useState(false)
+  const [isFullScreen, setIsFullScreen] = useState(!!document.fullscreenElement)
 
   useEffect(() => {
     const toggleFullScreen = () => {
       if (!isFullScreen) {
-        document.documentElement.requestFullscreen()
+        document.documentElement.requestFullscreen().then(() => {
+          setIsFullScreen(true)
+        })
       } else {
-        document.exitFullscreen()
+        document.exitFullscreen().then(() => {
+          setIsFullScreen(false)
+        })
       }
-      setIsFullScreen(!isFullScreen)
     }
 
     const handleKeyDown = event => {

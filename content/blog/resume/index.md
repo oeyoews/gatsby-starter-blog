@@ -150,5 +150,6 @@ With good learning ability and self-drive, I pay attention to code norms and mai
 
 </div>
 
+<!-- https://github.com/geekcompany/ResumeSample/blob/master/web.md -->
 <!-- todo -->
 <!-- - add print button -->

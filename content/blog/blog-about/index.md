@@ -1,6 +1,6 @@
 ---
 date: 2023-04-08
-title: blog-about
+title: Blog About
 description: 博客基本要求及发布流程
 ---
 

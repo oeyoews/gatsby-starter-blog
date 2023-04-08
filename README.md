@@ -134,6 +134,7 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [ ] support double click to return home
 - [ ] breadcrumb https://github.com/sbardian/gatsby-plugin-breadcrumb
 - [ ] overwrite progressbar component
+- [ ] use dynamic router
 
 ## Links
 

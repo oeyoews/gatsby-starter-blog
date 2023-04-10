@@ -7,6 +7,7 @@ import boopSfx from "./click.wav"
 const BoopButton = () => {
   const [play, { stop }] = useSound(boopSfx)
 
+  // https://github.com/joshwcomeau/use-sound
   return (
     <div className="flex justify-center">
       <svg

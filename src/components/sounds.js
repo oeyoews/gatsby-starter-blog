@@ -13,7 +13,7 @@ const BoopButton = () => {
       <svg
         onMouseEnter={() => play()}
         onMouseLeave={() => stop()}
-        className="my-4 fill-rose-500 stroke-cyan-500 transition duration-200 hover:scale-125"
+        className="my-4 animate-bounce fill-rose-500 stroke-cyan-500 transition duration-200 hover:scale-125"
         stroke="currentColor"
         fill="currentColor"
         strokeWidth="0"

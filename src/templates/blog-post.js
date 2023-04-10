@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import BoopButton from "../components/sounds"
 
 const BlogPostTemplate = ({
   data: { site, markdownRemark: post },
@@ -33,6 +34,7 @@ const BlogPostTemplate = ({
           itemProp="articleBody"
         />
       </article>
+      <BoopButton />
     </Layout>
   )
 }

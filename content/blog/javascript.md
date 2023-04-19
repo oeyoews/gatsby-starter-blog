@@ -1,7 +1,7 @@
 ---
 date: 2023-04-19
 title: Javascript
-description:
+description: javascript
 ---
 
 ## Prototype

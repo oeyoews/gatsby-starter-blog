@@ -26,7 +26,7 @@ const BlogPostTemplate = ({
             {post.frontmatter.title}
           </h2>
           <small className="flex items-center justify-center italic">
-            <Gravatar />
+            {post.frontmatter.date && <Gravatar />}
             {post.frontmatter.date}
           </small>
         </header>

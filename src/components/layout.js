@@ -1,9 +1,10 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import FullScreenToggle from "../components/full-screen-toggle"
+import FullScreenToggle from "./full-screen-toggle"
 import HomeShortcut from "./return-home"
 import ProgressBar from "./progressbar"
+// import Gravatar from "./Gravatar"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -13,6 +14,7 @@ const Layout = ({ location, title, children }) => {
   if (isRootPath) {
     header = (
       <h1 className="main-heading">
+        {/* <Gravatar /> */}
         <Link to="/">{title}</Link>
       </h1>
     )

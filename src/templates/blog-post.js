@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Gravatar from "../components/Gravatar"
 
 const BlogPostTemplate = ({
   data: { site, markdownRemark: post },
@@ -25,6 +26,7 @@ const BlogPostTemplate = ({
             {post.frontmatter.title}
           </h2>
           <small className="flex items-center justify-center italic">
+            <Gravatar />
             {post.frontmatter.date}
           </small>
         </header>

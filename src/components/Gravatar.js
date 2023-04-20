@@ -3,7 +3,11 @@ import * as React from "react"
 export default function Gravatar() {
   return (
     <span>
-      <a target="_blank" rel="noreferrer" href="https://github.com/oeyoews">
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://github.com/oeyoews"
+      >
         <img
           src="https://q1.qlogo.cn/g?b=qq&nk=2956398608&s=100"
           className="mx-2 h-4 rounded-full align-bottom"

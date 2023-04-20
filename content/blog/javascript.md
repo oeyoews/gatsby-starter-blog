@@ -4,6 +4,36 @@ title: Javascript
 description: javascript
 ---
 
+## arrow function
+
+* not have self `this`, `arguments`, `super`, is suitable for annoumous function
+
+```javascript
+var elements = [1, 2, 3]
+
+// general function
+elements.map(function(element) {
+        return element.length
+    })
+
+// arrow function
+elements.map((element) => {
+        return element.length
+    })
+
+// or shorter arrow function
+element.map(element => element.length)
+```
+
+### why arrow function
+
+* shortable and less function and not have `this`
+
+```javascript
+() => { statements }
+(params, ) => { statements } // if just have one params, this first brackets is optional, but if no params, should add empty double brackets
+```
+
 ## Prototype
 
 ### Code
@@ -38,4 +68,5 @@ Jim 100 null
 
 ## Reference
 
-https://javascript.ruanyifeng.com/oop/prototype.html
+* https://javascript.ruanyifeng.com/oop/prototype.html
+* https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/Arrow_functions

@@ -21,3 +21,22 @@ v-model="xxx" === v-model:value="xxx"
 ```
 
 * vue manage es5 funciton, not es6 arrow function
+
+## MVVM
+
+* model(data)
+* view(template)
+* viewmodel(vue object)
+* view(dom) -- vm -- model
+
+## Single component
+
+## Jsx in vue
+
+## Data Proxy
+
+## TODO
+
+## Referenced
+
+* https://juejin.cn/post/7174438569212116999

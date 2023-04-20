@@ -11,3 +11,7 @@ description: tailwindcss
 ```jsx
 className={`h-${height}`}
 ```
+
+## hover
+
+* <hover>:duration-200

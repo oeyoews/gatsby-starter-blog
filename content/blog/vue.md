@@ -4,6 +4,10 @@ title: Vue
 description: vue
 ---
 
+`$event`
+
+`v-on:click === @click`
+
 * insert
 
 ```vue

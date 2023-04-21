@@ -137,6 +137,7 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [ ] use dynamic router
 - [ ] use transition link plugin
 - [ ] notion api [link](https://www.gatsbyjs.com/plugins/gatsby-source-notion/#quick-start)
+- [ ] [mdx](https://github.com/gatsbyjs/gatsby/discussions/34714)
 
 ## Links
 

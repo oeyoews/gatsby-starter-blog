@@ -29,6 +29,7 @@
     "gatsby-source-filesystem": "^5.9.0",
     "gatsby-transformer-remark": "^6.9.0",
     "gatsby-transformer-sharp": "^5.9.0",
+    "npm-check-updates": "^16.10.9",
     "postcss": "^8.4.23",
     "preact": "^10.13.2",
     "preact-render-to-string": "^6.0.2",

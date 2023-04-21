@@ -39,15 +39,17 @@ const BlogIndex = ({ data, location }) => {
                       <Link to={post.fields.slug} itemProp="url">
                         <span
                           itemProp="headline"
-                          className="transition duration-200 hover:underline"
+                          className="rounded p-2 transition duration-200 hover:bg-gray-100"
                         >
                           {title}
                         </span>
                       </Link>
                     </h2>
-                    <small className="italic">{post.frontmatter.date}</small>
+                    <small className="p-2 italic">
+                      {post.frontmatter.date}
+                    </small>
                   </header>
-                  <section className="">
+                  <section className="p-2">
                     <p
                       dangerouslySetInnerHTML={{
                         __html: post.frontmatter.description || post.excerpt,

@@ -14,13 +14,20 @@ const Layout = ({ location, title, children }) => {
   if (isRootPath) {
     header = (
       <h1 className="main-heading">
-        {/* <Gravatar /> */}
-        <Link to="/">{title}</Link>
+        <Link
+          to="/"
+          className="rounded p-2 transition duration-200 hover:bg-gray-100"
+        >
+          {title}
+        </Link>
       </h1>
     )
   } else {
     header = (
-      <Link className="header-link-home print:hidden" to="/">
+      <Link
+        className="header-link-home rounded p-2 transition duration-200 hover:bg-gray-100 print:hidden"
+        to="/"
+      >
         {title}
       </Link>
     )

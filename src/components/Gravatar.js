@@ -1,12 +1,18 @@
 import * as React from "react"
+import useSound from "use-sound"
+import boopSfx from "./click.wav"
 
+// use timeout
 export default function Gravatar() {
+  const [play] = useSound(boopSfx)
   return (
     <span>
       <a
         target="_blank"
         rel="noopener noreferrer"
         href="https://github.com/oeyoews"
+        onClick={() => play()}
+        role="button"
       >
         <img
           src="https://q1.qlogo.cn/g?b=qq&nk=2956398608&s=100"
@@ -17,23 +23,3 @@ export default function Gravatar() {
     </span>
   )
 }
-
-// or use md5
-/* import md5 from 'md5';
-
-function Gravatar(props) {
-  const emailHash = md5(props.email.trim().toLowerCase());
-  const gravatarUrl = `https://www.gravatar.com/avatar/${emailHash}?s=${props.size}&d=${props.defaultImg}`;
-
-  return (
-    <img
-      src={gravatarUrl}
-      alt="Gravatar"
-      width={props.size}
-      height={props.size}
-      className={props.className}
-    />
-  );
-}
-
-export default Gravatar; */

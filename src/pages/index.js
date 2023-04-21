@@ -10,7 +10,7 @@ import Seo from "../components/seo"
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
-  const [play] = useSound(boopSfx)
+  const [play, { stop }] = useSound(boopSfx)
 
   if (posts.length === 0) {
     return (
@@ -44,6 +44,7 @@ const BlogIndex = ({ data, location }) => {
                         to={post.fields.slug}
                         itemProp="url"
                         onMouseEnter={() => play()}
+                        onMouseLeave={() => stop()}
                       >
                         <span
                           itemProp="headline"

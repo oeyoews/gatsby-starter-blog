@@ -1,12 +1,16 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 
+import useSound from "use-sound"
+import boopSfx from "../components/hover.mp3"
+
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
+  const [play] = useSound(boopSfx)
 
   if (posts.length === 0) {
     return (
@@ -36,7 +40,11 @@ const BlogIndex = ({ data, location }) => {
                 >
                   <header className="prose prose-a:no-underline">
                     <h2>
-                      <Link to={post.fields.slug} itemProp="url">
+                      <Link
+                        to={post.fields.slug}
+                        itemProp="url"
+                        onMouseEnter={() => play()}
+                      >
                         <span
                           itemProp="headline"
                           className="rounded p-1 transition duration-200 hover:bg-gray-100"

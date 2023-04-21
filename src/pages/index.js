@@ -47,7 +47,7 @@ const BlogIndex = ({ data, location }) => {
                     </h2>
                     {/*                     <small className="italic">{post.frontmatter.date}</small> */}
                   </header>
-                  <section className="pl-2">
+                  <section className="ml-2">
                     <p
                       dangerouslySetInnerHTML={{
                         __html: post.frontmatter.description || post.excerpt,

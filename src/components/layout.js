@@ -14,18 +14,15 @@ const Layout = ({ location, title, children }) => {
   if (isRootPath) {
     header = (
       <h1 className="main-heading">
-        <Link
-          to="/"
-          className="rounded p-2 transition duration-200 hover:bg-gray-100"
-        >
-          {title}
-        </Link>
+        {/* <Link to="/" className="">
+        </Link> */}
+        {title}
       </h1>
     )
   } else {
     header = (
       <Link
-        className="header-link-home rounded p-2 transition duration-200 hover:bg-gray-100 print:hidden"
+        className="header-link-home rounded px-2 py-1 transition duration-200 hover:bg-gray-100 print:hidden"
         to="/"
       >
         {title}

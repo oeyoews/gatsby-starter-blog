@@ -100,6 +100,7 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 
 ## TODO
 
+- [ ] netlify cms
 - [x] use netlify github-pages, and vercel
 - [x] chang blog font
 - [x] use mdx, reading time(maybe)

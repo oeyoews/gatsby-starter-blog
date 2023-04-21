@@ -136,6 +136,7 @@ The fastest way to combine your favorite tools and APIs to build the fastest sit
 - [ ] overwrite progressbar component
 - [ ] use dynamic router
 - [ ] use transition link plugin
+- [ ] notion api [link](https://www.gatsbyjs.com/plugins/gatsby-source-notion/#quick-start)
 
 ## Links
 

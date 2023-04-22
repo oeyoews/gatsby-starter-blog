@@ -4,6 +4,17 @@ title: React
 description: react
 ---
 
+## beginner
+
+```html
+<div id="root"></div>
+```
+
+```javascript
+const button = React.createElement("button",null, "click me")
+ReactDOM.createRoot(document.getElementById('root')).render(button)
+```
+
 # pre-basic
 
 ## basic type

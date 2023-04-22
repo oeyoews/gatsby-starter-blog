@@ -4,6 +4,18 @@ title: Javascript
 description: javascript
 ---
 
+## strict mode
+
+```javascript
+function gf() {
+  "use strict";
+  console.log(this.a);
+}
+
+var a = 1;
+gf();
+```
+
 ## arrow function
 
 * not have self `this`, `arguments`, `super`, is suitable for annoumous function

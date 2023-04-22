@@ -2,7 +2,7 @@ import * as React from "react"
 
 import useSound from "use-sound"
 
-import boopSfx from "./click.wav"
+import boopSfx from "./pop.mp3"
 
 const BoopButton = () => {
   const [play, { stop }] = useSound(boopSfx)

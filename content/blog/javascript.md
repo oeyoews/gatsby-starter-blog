@@ -4,7 +4,13 @@ title: Javascript
 description: javascript
 ---
 
+## array map
+
+* old array to format array
+
 ## strict mode
+
+* class default is use strict mode, this is undefined
 
 ```javascript
 function gf() {

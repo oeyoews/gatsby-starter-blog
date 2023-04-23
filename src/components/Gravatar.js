@@ -22,3 +22,6 @@ export default function Gravatar({ email = "2956398608", user = "oeyoews" }) {
     </div>
   )
 }
+
+// not recomment use defaultProps
+// Gravatar.defaultProps = { email: "2956398608", user: "oeyoews" }

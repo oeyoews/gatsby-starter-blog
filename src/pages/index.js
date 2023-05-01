@@ -40,7 +40,7 @@ const BlogIndex = ({ data, location }) => {
                   onMouseEnter={() => play()}
                 >
                   <article
-                    className="flex flex-1 flex-col justify-between rounded-lg bg-white p-4 transition-all duration-200 hover:shadow-lg"
+                    className="flex flex-1 flex-col justify-between rounded-lg bg-white p-4 shadow-lg transition-all duration-200 lg:shadow-none lg:hover:shadow-lg"
                     itemScope
                     itemType="http://schema.org/Article"
                   >

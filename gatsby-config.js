@@ -21,6 +21,7 @@ module.exports = {
     // menuLinks: []
   },
   plugins: [
+    "gatsby-plugin-use-dark-mode",
     {
       resolve: `gatsby-plugin-nprogress`,
       options: {

@@ -27,19 +27,19 @@ const BlogIndex = ({ data, location }) => {
   return (
     <>
       <Layout location={location} title={siteTitle}>
-        <ol style={{ listStyle: `none` }}>
+        <ol className="grid grid-cols-1 grid-rows-3 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {posts.map(post => {
             const title = post.frontmatter.title || post.fields.slug
 
             return (
-              <li key={post.fields.slug}>
+              <li key={post.fields.slug} className="flex flex-col">
                 <article
-                  className="post-list-item"
+                  className="flex flex-1 flex-col justify-between rounded-lg bg-white p-4 hover:shadow"
                   itemScope
                   itemType="http://schema.org/Article"
                 >
-                  <header className="prose prose-a:no-underline">
-                    <h2>
+                  <header>
+                    <h2 className="block text-lg">
                       <Link
                         to={post.fields.slug}
                         itemProp="url"
@@ -54,9 +54,8 @@ const BlogIndex = ({ data, location }) => {
                         </span>
                       </Link>
                     </h2>
-                    {/*                     <small className="italic">{post.frontmatter.date}</small> */}
                   </header>
-                  <section className="ml-2">
+                  <section className="mt-4 line-clamp-1 flex-1">
                     <p
                       dangerouslySetInnerHTML={{
                         __html: post.frontmatter.description || post.excerpt,

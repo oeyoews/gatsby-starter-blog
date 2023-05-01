@@ -10,7 +10,7 @@ import Seo from "../components/seo"
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
-  const [play, { stop }] = useSound(boopSfx)
+  const [play] = useSound(boopSfx)
 
   if (posts.length === 0) {
     return (
@@ -37,6 +37,7 @@ const BlogIndex = ({ data, location }) => {
                   to={post.fields.slug}
                   itemProp="url"
                   className="block no-underline"
+                  onMouseEnter={() => play()}
                 >
                   <article
                     className="flex flex-1 flex-col justify-between rounded-lg bg-white p-4 transition-all duration-200 hover:shadow-lg"
@@ -47,7 +48,7 @@ const BlogIndex = ({ data, location }) => {
                       <h2 className="block text-lg">
                         <span
                           itemProp="headline"
-                          className="rounded p-1 transition duration-200 hover:bg-gray-100"
+                          className="rounded p-1 transition duration-200"
                         >
                           {title}
                         </span>

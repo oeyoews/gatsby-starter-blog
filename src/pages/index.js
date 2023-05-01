@@ -33,37 +33,36 @@ const BlogIndex = ({ data, location }) => {
 
             return (
               <li key={post.fields.slug} className="flex flex-col">
-                <article
-                  className="flex flex-1 flex-col justify-between rounded-lg bg-white p-4 hover:shadow"
-                  itemScope
-                  itemType="http://schema.org/Article"
+                <Link
+                  to={post.fields.slug}
+                  itemProp="url"
+                  className="block no-underline"
                 >
-                  <header>
-                    <h2 className="block text-lg">
-                      <Link
-                        to={post.fields.slug}
-                        itemProp="url"
-                        onMouseEnter={() => play()}
-                        onMouseLeave={() => stop()}
-                      >
+                  <article
+                    className="flex flex-1 flex-col justify-between rounded-lg bg-white p-4 transition-all duration-200 hover:shadow-lg"
+                    itemScope
+                    itemType="http://schema.org/Article"
+                  >
+                    <header>
+                      <h2 className="block text-lg">
                         <span
                           itemProp="headline"
                           className="rounded p-1 transition duration-200 hover:bg-gray-100"
                         >
                           {title}
                         </span>
-                      </Link>
-                    </h2>
-                  </header>
-                  <section className="mt-4 line-clamp-1 flex-1">
-                    <p
-                      dangerouslySetInnerHTML={{
-                        __html: post.frontmatter.description || post.excerpt,
-                      }}
-                      itemProp="description"
-                    />
-                  </section>
-                </article>
+                      </h2>
+                    </header>
+                    <section className="mt-4 line-clamp-1 flex-1">
+                      <p
+                        dangerouslySetInnerHTML={{
+                          __html: post.frontmatter.description || post.excerpt,
+                        }}
+                        itemProp="description"
+                      />
+                    </section>
+                  </article>
+                </Link>
               </li>
             )
           })}
